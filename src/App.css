@@ -51,6 +51,9 @@ body {
   transform: scale(1);
   box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 35%);
 }
+.navbar .link-container-mob {
+  display: none;
+}
 .footer {
   padding: 10px;
   border-top: 0.1px solid #d9d7e0;
@@ -120,6 +123,7 @@ body {
     border: 0px;
     max-width: 90vw;
     margin: 0 auto;
+    display: block;
   }
   .navbar .link-container-mob a {
     text-align: center;
