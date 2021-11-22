@@ -19,7 +19,7 @@ const Navbar = () =>{
 
             <div className="logo-container">
                 <a href="/">
-                    <h2 className="logo">aeroSpect</h2>
+                    <h2 className="logo">Aerospect</h2>
                 </a>
                 <div class="mobile-menu-btn">
                     <Hamburger toggled={isOpen} toggle={setOpen} />

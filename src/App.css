@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
@@ -96,5 +99,97 @@ body {
   }
   .navbar .utility-btn-container {
     display: none;
+  }
+}
+
+.explore_title {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.explore_title_text {
+  font-family: "Carattere", sans-serif;
+  padding-bottom: 0.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.explore_title_line {
+  display: inline-flex;
+  height: 0.3rem;
+  width: 20rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
+}
+
+.cards-list {
+  z-index: 0;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.card {
+  margin: 30px 10px;
+  width: 400px;
+  height: 280px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}
+
+.card .card-image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card-image img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+.card .card-title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-size: 30px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  margin-top: -45px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+  font-weight: bolder;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    padding-top: -200px;
+    flex-direction: column;
   }
 }
