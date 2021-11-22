@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background: rgb(253, 253, 253);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 0.1px solid #d9d7e0;
+  -webkit-box-shadow: 0px 9px 15px -4px rgba(183, 188, 194, 1);
+  -moz-box-shadow: 0px 9px 15px -4px rgba(183, 188, 194, 1);
+  box-shadow: 0px 4px 4px -4px rgba(183, 188, 194, 1);
+}
+.navbar .logo-container a {
+  text-decoration: none;
+}
+.navbar .logo-container .logo {
+  color: #000;
+  font-weight: bold;
+}
+.navbar .logo-container .mobile-menu-btn {
+  display: none;
+}
+.navbar .link-container {
+  margin-top: 5px;
+}
+.navbar .link-container .nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(49, 58, 80);
+  font-size: 1.2em;
+}
+.navbar .link-container .nav-link:hover {
+  transform: scale(1.01);
+  opacity: 0.8;
+}
+.navbar .link-container .active {
+  color: rgb(101, 86, 255) !important;
+}
+.navbar .utility-btn-container .github-img {
+  width: 90px;
+  border-radius: 8px;
+  padding: 1px 1px;
+  background: #fff;
+  margin-right: 20px;
+  transform: scale(1);
+  box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 35%);
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+  .navbar .logo-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .logo-container h2 {
+    margin-top: 7px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .navbar .logo-container .mobile-menu-btn {
+    display: block;
+  }
+  .navbar .link-container {
+    display: none;
+  }
+  .navbar .link-container-mob {
+    background: rgb(244, 245, 248);
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  .navbar .link-container-mob a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: rgb(49, 58, 80);
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  .navbar .link-container-mob a:hover {
+    transform: scale(1.01);
+    opacity: 0.8;
+  }
+  .navbar .link-container-mob .active {
+    color: rgb(101, 86, 255) !important;
+  }
+  .navbar .utility-btn-container {
+    display: none;
+  }
+}
