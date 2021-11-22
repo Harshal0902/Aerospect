@@ -20,7 +20,7 @@ body {
   text-decoration: none;
 }
 .navbar .logo-container .logo {
-  color: #000;
+  color: #424c61;
   font-weight: bold;
 }
 .navbar .logo-container .mobile-menu-btn {
@@ -96,6 +96,31 @@ body {
 .footer-logo-container .sm-img:hover {
   transform: scale(1.09);
 }
+
+.introduction {
+  display: flex;
+  justify-content: space-around;
+}
+.introduction .text-part {
+  border: 0px solid red;
+  padding: 50px 10px;
+}
+.introduction .text-part h1 {
+  font-size: 2.5em;
+  color: rgb(26, 36, 61);
+}
+.introduction .text-part h4 {
+  color: rgb(153, 160, 174);
+  font-size: 1.4em;
+}
+.introduction .img-holder img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.success {
+  color: rgb(112, 212, 108);
+}
 @media only screen and (max-width: 600px) {
   .navbar {
     display: block;
@@ -109,6 +134,7 @@ body {
     margin-top: 7px;
     margin-left: 10px;
     font-weight: bold;
+    color: rgb(26, 36, 61);
   }
   .navbar .logo-container .mobile-menu-btn {
     display: block;
