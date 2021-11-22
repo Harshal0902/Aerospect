@@ -8,7 +8,7 @@ import SpaceX from "../assets/spaceX.jpeg"
 
 const Explore = () => {
     return (
-        <div >
+        <div>
 
             <div className="explore_title">
                 <h1 className="explore_title_text">

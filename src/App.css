@@ -106,7 +106,7 @@ body {
   display: grid;
   place-items: center;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
 }
 
@@ -191,5 +191,147 @@ body {
   .card-list {
     padding-top: -200px;
     flex-direction: column;
+  }
+}
+
+.model {
+  padding-top: 40px;
+}
+
+.model_goback {
+  margin-left: 24px;
+}
+
+.model_info {
+  display: grid;
+  place-items: center;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.model_info_title {
+  padding-bottom: 0.5rem;
+  font-size: 3.75rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  font-family: "Carattere", sans-serif;
+}
+
+.model_info_desc {
+  font-family: "Source Serif Pro", serif;
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  width: 70rem;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.model3D {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-right: 4rem;
+}
+
+.model3D_3D {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  outline: none;
+  cursor: pointer;
+  grid-column: span 2 / span 2;
+  display: block;
+}
+
+.model3d_3d_desc {
+  margin-top: 1rem;
+  grid-column: span 1 / span 1;
+  padding: 1rem;
+}
+
+.model_part_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Source Serif Pro", serif;
+}
+
+.model_part_desc {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.view_info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Source Serif Pro", serif;
+}
+
+.view_info_click {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.view_info_desc {
+  align-self: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.05em;
+  text-align: justify;
+  font-family: "Source Serif Pro", serif;
+}
+.view_info_main {
+  display: grid;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.view_info_qr {
+  display: flex;
+  padding: 1.5rem;
+  font-size: 3.75rem;
+  line-height: 1;
+  border-radius: 0.75rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+.view_info_button {
+  margin-top: 105px;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+  animation: anime 16s linear infinite;
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
