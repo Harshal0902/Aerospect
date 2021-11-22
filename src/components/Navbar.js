@@ -12,10 +12,10 @@ const Navbar = () =>{
             </div>
 
             <div className="link-container">
-                <NavLink exact  className="nav-link" activeClassName="active" to="/">Home</NavLink >
-                <NavLink  className="nav-link " to="/aboutus">AboutUs</NavLink >
-                <NavLink  className="nav-link " to="/explore">Explore</NavLink >
-                <NavLink  className="nav-link " to="/contactus">ContactUs</NavLink >
+                <NavLink  className="nav-link" activeClassName="active" exact to="/">Home</NavLink >
+                <NavLink  className="nav-link" exact to="/aboutus">AboutUs</NavLink >
+                <NavLink  className="nav-link"exact to="/explore">Explore</NavLink >
+                <NavLink  className="nav-link"exact to="/contactus">ContactUs</NavLink >
             </div>
             <div className="utility-btn-container">
                 <a rel="noopener noreferrer" target="_blank" href="https://github.com/Harshal0902/Aerospect">
