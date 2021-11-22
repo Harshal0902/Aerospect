@@ -18,6 +18,15 @@ const Explore = () => {
             </div>
 
             <div className="cards-list">
+        
+                <Link to="/spaceX" className="card" style={{ textDecoration: "none" }}>
+                    <div className="card-image">
+                        <img alt="" src={SpaceX} rel="" />
+                    </div>
+                    <div className="card-title title-black">
+                        <p>SpaceX Falcon 9</p>
+                    </div>
+                </Link>
 
                 <Link to="/dragonXL" className="card" style={{ textDecoration: "none" }}>
                     <div className="card-image">
@@ -25,15 +34,6 @@ const Explore = () => {
                     </div>
                     <div className="card-title title-black">
                         <p>DragonXL</p>
-                    </div>
-                </Link>
-
-                <Link to="/spaceX" className="card" style={{ textDecoration: "none" }}>
-                    <div className="card-image">
-                        <img alt="" src={SpaceX} rel="" />
-                    </div>
-                    <div className="card-title title-black">
-                        <p>SpaceX Falcon 9</p>
                     </div>
                 </Link>
 
