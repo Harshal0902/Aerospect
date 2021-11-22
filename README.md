@@ -33,7 +33,7 @@ npm start
 
 ## 🧠 Challenges we ran into
 
-The biggest challenge was to rendering the 3D model and adding AR functionality to them, which I overcome using three js and echoAR.
+The biggest challenge was to rendering the 3D model and adding AR functionality to them, which we overcome using three js and echoAR.
 
 ## 🏅 Accomplishments that we're proud of
 
