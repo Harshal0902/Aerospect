@@ -68,7 +68,7 @@ body {
   font-weight: bold;
 }
 .footer-logo-container a {
-  color: blue;
+  color: rgb(101, 86, 255);
   text-decoration: none;
   font-weight: bold;
 }
@@ -120,6 +120,12 @@ body {
 }
 .success {
   color: rgb(112, 212, 108);
+}
+.primary {
+  color: rgb(101, 86, 255);
+}
+.danger {
+  color: rgb(241, 80, 96);
 }
 @media only screen and (max-width: 600px) {
   .navbar {
