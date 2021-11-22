@@ -13,9 +13,9 @@ const Navbar = () =>{
         return (
             <>
                 <NavLink  className="nav-link" activeClassName="active" exact to="/" onClick={closeBurgerMenu} >Home</NavLink >
-                <NavLink  className="nav-link" exact to="/aboutus" onClick={closeBurgerMenu} >AboutUs</NavLink >
+                
                 <NavLink  className="nav-link"exact to="/explore" onClick={closeBurgerMenu} >Explore</NavLink >
-                <NavLink  className="nav-link"exact to="/contactus" onClick={closeBurgerMenu} >ContactUs</NavLink >
+                <NavLink  className="nav-link"exact to="/contactus" onClick={closeBurgerMenu} >Contact</NavLink >
             </>
         );
     }
