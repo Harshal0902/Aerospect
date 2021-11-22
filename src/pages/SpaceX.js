@@ -183,8 +183,8 @@ function Details() {
                 <p className="view_info_desc">To view the 3D model in AR, scan the QR code or click on the button below.</p>
 
                 <div className="view_info_main">
-                    <img className="view_info_qr" src="https://storage.echo3d.co/shiny-wave-1052/268c3742-66a2-4139-9bbd-f3d153aba560.png" alt="Aircraft QR" />
-                    <a href="https://go.echo3d.co/Q61F" target="_blank" rel="noreferrer">
+                    <img className="view_info_qr" src="https://storage.echo3d.co/shiny-wave-1052/1a3d3a0b-90f8-4d49-a405-6be3f70cd595.png" alt="Aircraft QR" />
+                    <a href="https://go.echo3d.co/4HqW" target="_blank" rel="noreferrer">
                         <button className="view_info_button">View in AR</button>
                     </a>
                 </div>
