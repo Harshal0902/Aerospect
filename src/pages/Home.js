@@ -12,7 +12,7 @@ const Home = () =>{
                 <div className="flex-jc-sa">
                     <div className="text-part">
                         <h1>
-                            aeroSpect<br />
+                            Aerospect<br />
                             Education <span className="success">Redifened</span>
                         </h1>
                         <h4>With our <span className="danger">3D</span> responsive educative models <span className="primary">everyone</span> can learn</h4>

@@ -349,8 +349,33 @@ body {
   color: black;
   font-weight: bolder;
 }
+.contact-box {
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  margin-right: 10px;
+}
+.contact .img-holder h3 {
+  font-size: 1.8em;
+  color: rgb(49, 58, 80);
+}
+.contact-box .form-control {
+  width: 40vw;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #f7f8fa;
+  background: #f7f8fa;
+}
+.contact-box .form-control:focus {
+  border: 2px solid rgb(101, 86, 255);
+  outline: 0px;
+}
 
 @media all and (max-width: 500px) {
+  .flex-jc-sa {
+    flex-direction: column;
+  }
   .card-list {
     padding-top: -200px;
     flex-direction: column;
