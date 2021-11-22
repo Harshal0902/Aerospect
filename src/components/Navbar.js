@@ -4,13 +4,18 @@ import Hamburger from 'hamburger-react'
 const Navbar = () =>{
     const [isOpen, setOpen] = useState(false);
     console.log(isOpen);
+    const closeBurgerMenu = () =>{
+        setTimeout(()=>{
+            setOpen(!isOpen)
+        }, 300);
+    }
     const Links = () =>{
         return (
             <>
-                <NavLink  className="nav-link" activeClassName="active" exact to="/">Home</NavLink >
-                <NavLink  className="nav-link" exact to="/aboutus">AboutUs</NavLink >
-                <NavLink  className="nav-link"exact to="/explore">Explore</NavLink >
-                <NavLink  className="nav-link"exact to="/contactus">ContactUs</NavLink >
+                <NavLink  className="nav-link" activeClassName="active" exact to="/" onClick={closeBurgerMenu} >Home</NavLink >
+                <NavLink  className="nav-link" exact to="/aboutus" onClick={closeBurgerMenu} >AboutUs</NavLink >
+                <NavLink  className="nav-link"exact to="/explore" onClick={closeBurgerMenu} >Explore</NavLink >
+                <NavLink  className="nav-link"exact to="/contactus" onClick={closeBurgerMenu} >ContactUs</NavLink >
             </>
         );
     }
@@ -22,7 +27,7 @@ const Navbar = () =>{
                     <h2 className="logo">Aerospect</h2>
                 </a>
                 <div class="mobile-menu-btn">
-                    <Hamburger toggled={isOpen} toggle={setOpen} />
+                    <Hamburger toggled={isOpen} toggle={setOpen} hideOutline={true} />
                 </div>
             </div>
             <div className="link-container">
