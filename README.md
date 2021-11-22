@@ -15,7 +15,7 @@ Aerospect is an AR-based web platform where students come across and learn about
 
 - React Js: For the frontend
 - Three Js: For rendering 3D Models
-- AssemblyAI: For speech to text
+
 
 ## 🧠 Challenges we ran into
 
