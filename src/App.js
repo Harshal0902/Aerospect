@@ -5,17 +5,19 @@ import About from "./pages/About"
 import Contact from "./pages/Contactus"
 import Explore from "./pages/Explore"
 import Home from "./pages/Home"
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/'exact component={Home} />
+        <Route path='/' exact component={Home} />
         <Route path='/aboutus' component={About} />
         <Route path='/explore' component={Explore} />
         <Route path='/contactus' component={Contact} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

@@ -51,6 +51,48 @@ body {
   transform: scale(1);
   box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 35%);
 }
+.footer {
+  padding: 10px;
+  border-top: 0.1px solid #d9d7e0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-logo-container p {
+  text-align: center;
+}
+.footer-logo-container .footer-logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.footer-logo-container a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-link-container p {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.footer-link-container a {
+  display: block;
+  text-decoration: none;
+  color: grey;
+}
+.footer-link-container a:hover {
+  opacity: 0.7;
+}
+.footer-logo-container .sm-img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  -webkit-box-shadow: 0px 0px 5px -4px rgba(148, 136, 148, 1);
+  -moz-box-shadow: 0px 0px 5px -4px rgba(148, 136, 148, 1);
+  box-shadow: 0px 0px 5px -4px rgba(148, 136, 148, 1);
+  padding: 3px;
+}
+.footer-logo-container .sm-img:hover {
+  transform: scale(1.09);
+}
 @media only screen and (max-width: 600px) {
   .navbar {
     display: block;
