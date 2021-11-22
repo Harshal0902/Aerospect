@@ -8,9 +8,9 @@ const Footer = () => {
             <span className="footer-logo">
                 <a href="/">aeroSpect</a>
             </span><br />
-                <a href="#"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/GITHUB-256.png" /></a>
-                <a href="#"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/TWITTER-256.png" /></a>
-                <a href="#"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/FB-256.png" /></a><br />
+                <a href="/"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/GITHUB-256.png" /></a>
+                <a href="/"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/TWITTER-256.png" /></a>
+                <a href="/"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/FB-256.png" /></a><br />
                 Made with 💖
             </p>
         </div>
