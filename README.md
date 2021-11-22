@@ -1,6 +1,11 @@
-# Aerospect
+# Aerospect <img src="https://i.ibb.co/vH4d63L/Aerospect-logo.png" align="right">
+
+![](https://img.shields.io/github/forks/Harshal0902/Aerospect?color=green&style=for-the-badge)
+![](https://img.shields.io/github/stars/Harshal0902/Aerospect?color=silver&style=for-the-badge)
+![](https://img.shields.io/github/license/Harshal0902/Aerospect?color=yellow&style=for-the-badge)
 
 ## 💡 Inspiration
+Aerospect is an AR-based web platform where students can visit the site and learn various concepts of Airplanes with the help of 3D Models, since many colleges and institutions can not provide a full scale aircrafts, especially for budding aerospace engineers. These students can use these 3D models to study which makes their understanding easier, and faster. Aerospect can help students achieve better results through visualization and full immersion in the subject matter.
 
 ## 💻 What it does
 
@@ -11,10 +16,6 @@ Aerospect is an AR-based web platform where students come across and learn about
 - React Js: For the frontend
 - Three Js: For rendering 3D Models
 - AssemblyAI: For speech to text
-
-## 🤖 Best AssemblyAI Project
-
-- We have used AssemblyAI for speech to text conversion.
 
 ## 🧠 Challenges we ran into
 
