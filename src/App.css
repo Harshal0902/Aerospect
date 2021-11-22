@@ -145,6 +145,7 @@ body {
   font-size: 1.3em;
   border: 0px;
   border-radius: 5px;
+  text-decoration: none;
 }
 .primary-btn:hover {
   background: #fff;
@@ -154,6 +155,58 @@ body {
 }
 .searchBox {
   margin-top: 20px;
+}
+.features {
+  margin-top: 60px;
+}
+.features h3 {
+  font-size: 1.9em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 4px solid rgb(101, 86, 255);
+  max-width: 400px;
+}
+.some-aircrafts {
+  background: rgb(246, 250, 255);
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+.some-aircrafts h3 {
+  font-size: 1.9em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 4px solid rgb(101, 86, 255);
+  max-width: 400px;
+}
+.features .card {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px !important;
+}
+.features .card img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto !important;
+}
+.features .card-title {
+  display: block;
+  margin-top: -200px !important;
+}
+.features .card .card-title .title {
+  color: rgb(26, 36, 61);
+  margin-top: 0px;
+  font-size: 0.8em !important;
+}
+.features .card .card-title .title-para {
+  font-size: 0.6em !important;
+  margin-top: -40px;
+  color: rgb(153, 160, 174);
 }
 @media only screen and (max-width: 600px) {
   .navbar {
@@ -242,26 +295,29 @@ body {
 }
 
 .card {
+  padding: 10px;
   margin: 30px 10px;
   width: 400px;
   height: 280px;
-  border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  box-shadow: 0.6px 0.4px 2.2px rgba(0, 0, 0, 0.02),
+    1.3px 1px 5.3px rgba(0, 0, 0, 0.028), 2.5px 1.9px 10px rgba(0, 0, 0, 0.035),
+    4.5px 3.4px 17.9px rgba(0, 0, 0, 0.042),
+    8.4px 6.3px 33.4px rgba(0, 0, 0, 0.05), 20px 15px 80px rgba(0, 0, 0, 0.07);
   transition: 0.4s;
 }
 
 .card .card-image {
   width: inherit;
   height: inherit;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .card .card-image img {
   width: 100%;
   height: auto;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 10px;
+  /* border-top-right-radius: 10px; */
   object-fit: cover;
   margin-left: -1px;
   margin-top: -1px;
@@ -277,8 +333,12 @@ body {
 }
 
 .card:hover {
-  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  box-shadow: 0.4px 0.4px 1.1px rgba(0, 0, 0, 0.038),
+    0.9px 0.9px 2.5px rgba(0, 0, 0, 0.056),
+    1.6px 1.6px 4.3px rgba(0, 0, 0, 0.069),
+    2.5px 2.5px 6.9px rgba(0, 0, 0, 0.08),
+    3.9px 3.9px 10.6px rgba(0, 0, 0, 0.091), 6px 6px 16.6px rgba(0, 0, 0, 0.104),
+    10px 10px 27.5px rgba(0, 0, 0, 0.122), 20px 20px 55px rgba(0, 0, 0, 0.16);
 }
 
 .title-white {
