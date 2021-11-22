@@ -16,6 +16,20 @@ Aerospect is an AR-based web platform where students come across and learn about
 - React Js: For the frontend
 - Three Js: For rendering 3D Models
 
+## Prerequisites
+
+Required to install and run the software:
+
+- [npm](https://www.npmjs.com/get-npm)
+
+## Installing and Running
+
+From the project folder, run these commands in console (terminal) to install dependencies and run the app:
+
+```
+npm install
+npm start
+```
 
 ## 🧠 Challenges we ran into
 
