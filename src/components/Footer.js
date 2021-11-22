@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer-logo-container">
             <p>
             <span className="footer-logo">
-                <a href="/">aeroSpect</a>
+                <a href="/">Aerospect</a>
             </span><br />
                 <a href="/"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/GITHUB-256.png" alt="github" /></a>
                 <a href="/"><img className="sm-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/TWITTER-256.png" alt="twitter" /></a>
