@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background: rgb(253, 253, 253);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 0.1px solid #d9d7e0;
+  -webkit-box-shadow: 0px 9px 15px -4px rgba(183, 188, 194, 1);
+  -moz-box-shadow: 0px 9px 15px -4px rgba(183, 188, 194, 1);
+  box-shadow: 0px 4px 4px -4px rgba(183, 188, 194, 1);
+}
+.navbar .logo-container a {
+  text-decoration: none;
+}
+.navbar .logo-container .logo {
+  color: #000;
+  font-weight: bold;
+}
+.navbar .link-container {
+  margin-top: 5px;
+}
+.navbar .link-container .nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(49, 58, 80);
+  font-size: 1.2em;
+}
+.navbar .link-container .nav-link:hover {
+  transform: scale(1.01);
+  opacity: 0.8;
+}
+.navbar .link-container .active {
+  color: rgb(101, 86, 255) !important;
+}
+.navbar .utility-btn-container .github-img {
+  width: 90px;
+  border-radius: 8px;
+  padding: 1px 1px;
+  background: #fff;
+  margin-right: 20px;
+  transform: scale(1);
+  box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 35%);
+}
