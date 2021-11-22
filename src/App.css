@@ -96,10 +96,17 @@ body {
 .footer-logo-container .sm-img:hover {
   transform: scale(1.09);
 }
-
-.introduction {
+.flex-jc-sa {
   display: flex;
   justify-content: space-around;
+}
+.introduction {
+  background: rgb(246, 250, 255);
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
 }
 .introduction .text-part {
   border: 0px solid red;
@@ -117,6 +124,7 @@ body {
   width: 100%;
   max-width: 600px;
   height: auto;
+  border-radius: 30%;
 }
 .success {
   color: rgb(112, 212, 108);
@@ -126,6 +134,23 @@ body {
 }
 .danger {
   color: rgb(241, 80, 96);
+}
+.primary-btn {
+  background: rgb(101, 86, 255);
+  color: #fff;
+  padding: 5px 50px;
+  font-size: 1.3em;
+  border: 0px;
+  border-radius: 5px;
+}
+.primary-btn:hover {
+  background: #fff;
+  color: rgb(101, 86, 255);
+  border: 2px solid rgb(101, 86, 255);
+  cursor: pointer;
+}
+.searchBox {
+  margin-top: 20px;
 }
 @media only screen and (max-width: 600px) {
   .navbar {
